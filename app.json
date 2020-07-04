@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ASPapp",
-    "slug": "ASPapp",
+    "name": "weatherApp",
+    "slug": "weatherApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,10 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hyun.weatherApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.hyun.weatherApp"
     }
   }
 }
